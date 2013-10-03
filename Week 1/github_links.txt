@@ -2,4 +2,6 @@ GitHub Links
 
 http://katybrunette.github.com/dws1 (repository)
 
-http://katybrunette.github.com/dws1/
+http://katybrunette.github.com/dws1/week1/lennon.html (first part of assignment)
+
+http://katybrunette.github.com/dws1/week1/element_definitions.html (definitions)
