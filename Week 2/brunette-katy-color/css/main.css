@@ -1,0 +1,21 @@
+/* My CSS */
+
+<head>
+<link rel="stylesheet" type="text/css" href="css/main.css">
+</head> 
+
+
+
+body {
+color: #400B26;
+}
+
+h1, h3, h4 {
+color: #FF2A98;
+background-color: #7F154C;
+opacity: 0.8;
+}
+
+ol {
+color: deeppink;
+}
