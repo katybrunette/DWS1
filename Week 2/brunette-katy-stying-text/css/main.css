@@ -1,0 +1,46 @@
+/* My CSS */
+
+<head>
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<link href='http://fonts.googleapis.com/css?family=Imprima' rel='stylesheet' type='text/css'>
+</head> 
+
+
+
+body {
+color: #400B26;
+}
+
+h1, h3, h4 {
+color: #FF2A98;
+background-color: #7F154C;
+opacity: 0.8;
+letter-spacing: 5;
+font-family: 'Imprima', sans-serif;
+text-shadow: -3px -3px 5px #000000;
+}
+
+ol {
+color: deeppink;
+}
+
+p, ol, a {
+font-family: Arial;
+font-size: 12px;
+}
+
+a:link {
+color: blue;
+}
+
+a:visited {
+color: deeppink;
+}
+
+a:hover {
+background-color: pink;
+}
+
+a:active {
+color: deeppink;
+}
