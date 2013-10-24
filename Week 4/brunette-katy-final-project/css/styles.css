@@ -1,0 +1,208 @@
+/* My CSS - Final Project */
+
+
+/* Header */
+
+header,footer,
+article,section,
+hgroup,nav,
+figure {
+    display:block;
+}
+
+h1, h3 {
+color: #ffffff;
+text-align: center;
+}
+
+h2 {
+color: #ffffff;
+font-family: Arial, Helevetica, sans-serif;
+}
+
+strong {
+color: #ffffff;
+font-size: 1.5em;
+}
+
+.column1 {
+float:none;
+width: 20%;
+padding: 1%;
+margin: 1%;
+clear:none;
+}
+
+.column2 {
+float:none;
+width: 20%;
+padding: 1%;
+margin: 1%;
+clear:none;
+}
+
+
+article .line {
+    background-color:green;
+    margin:1.3em 0;
+}
+
+footer .line {
+    margin:2em 0;
+}
+
+nav {
+    background-color:green;
+    padding:0 0px;
+    position:center;
+    right:0;
+    top:4em;
+    border:5px solid yellow;
+    box-shadow:0 5px 5px #000000;
+}
+
+nav ul li {
+    display:inline;
+}
+
+nav ul li a,
+nav ul li a:visited {
+    color:#ffffff;
+    display:block;
+    float:left;
+    font-size:1em;
+    font-weight:bold;
+    margin:15px 5px;
+    padding:7px 10px 5px;
+    text-transform:none;
+    text-decoration:none;
+    font-family: Arial, Helvetica, sans-serif; 
+    background-color: green;
+}
+
+nav ul li a:hover {
+	color:yellow;
+    text-decoration:none;
+}
+
+nav, article, nav ul li a, figure, footer {
+    border-radius:10px;
+}
+
+
+/* Body */
+
+body {
+background:#030 url("../images/lambeaufield.jpg") repeat-y 0 0;
+}
+
+p, aside {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 0.85em;
+}
+
+
+#page {
+    width:960px;
+    margin:0 auto;
+    position:relative;
+}
+
+article {
+    background-color:green;
+    margin:3em 0;
+    padding:20px;
+    box-shadow: 0px 5px 5px #000000; 
+}
+
+figure {
+    border:2px solid white;
+    float:right;
+    height:300px;
+    margin-left:10px;
+    overflow:hidden;
+    width:575px;
+}
+
+figure:hover {
+    box-shadow:0 0 2px #4D7788;
+}
+
+table {
+width: 920px;
+padding: 5px;
+text-transform:none;
+font-size: 11px;
+border: 2px solid white;
+text-align: center; 
+background-color: #ffffff;
+opacity: 0.8;
+border-spacing: 7px;
+border-radius: 10px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+table td {
+text-align: left;
+border: 0px solid black;
+}
+
+table td:hover {
+background-color: yellow;
+}
+
+th {
+color: darkgreen;
+text-align: center;
+font-size: 1.5em;
+font-family: Arial, Helvetica, sans-serif;
+background-color: yellow; 
+}
+
+#signup {
+width: 50%;
+padding: 10px;
+margin: 5px;
+font-size: 1em;
+color: yellow;
+border: 0px; 
+text-align: left;
+background-color:;
+}
+
+input:hover {
+background-color: yellow;
+}
+
+input:focus {
+background-color: lightyellow;
+}
+
+/* Footer */
+
+footer {
+    margin-bottom:30px;
+    text-align:center;
+    font-size:0.825em;
+    clear: both;
+}
+
+footer p {
+    margin-bottom:-2.5em;
+    position:relative;
+}
+
+footer a,footer a:visited {
+    color:#cccccc;
+    background-color:green;
+    display:block;
+    padding:10px 10px;
+    position:relative;
+}
+
+footer a:hover {
+    text-decoration:none;
+    background-color:darkgreen;
+}
+
+
