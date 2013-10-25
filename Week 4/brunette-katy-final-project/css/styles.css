@@ -26,16 +26,16 @@ font-size: 1.5em;
 }
 
 .column1 {
-float:none;
-width: 20%;
+float:left;
+width: 25%;
 padding: 1%;
 margin: 1%;
 clear:none;
 }
 
 .column2 {
-float:none;
-width: 20%;
+float:left;
+width: 25%;
 padding: 1%;
 margin: 1%;
 clear:none;
